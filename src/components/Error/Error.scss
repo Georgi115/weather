@@ -1,0 +1,16 @@
+$color-text: rgba(128, 128, 128, 0.781);
+$font-family-text: "Alata", sans-serif;
+$size-text: 20px;
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 224px;
+  &__text {
+    margin-bottom: 20px;
+    color: $color-text;
+    font-family: $font-family-text;
+    font-size: $size-text;
+  }
+}

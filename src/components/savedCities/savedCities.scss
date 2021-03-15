@@ -1,0 +1,37 @@
+$color-text: rgba(128, 128, 128, 0.781);
+$font-family-text: "Alata", sans-serif;
+$size-text: 20px;
+.savedCities {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  &__cities {
+    width: 72%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 30px 30px 30px;
+  }
+  &__title {
+    color: $color-text;
+    font-family: $font-family-text;
+    font-size: $size-text;
+  }
+  &__item {
+    width: 150px;
+    height: 100px;
+    border: 1px solid rgba(128, 128, 128, 0.61);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: border 0.3s linear;
+  }
+  &__item:hover {
+    border: 1px solid rgba(128, 128, 128, 0);
+  }
+}

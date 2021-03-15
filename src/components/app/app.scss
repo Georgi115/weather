@@ -1,0 +1,20 @@
+.app {
+  padding: 10px 10px 10px 10px;
+  &__Screen {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.61);
+    height: 224px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__screen {
+    height: 224px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.61);
+  }
+}
+
+.flex-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

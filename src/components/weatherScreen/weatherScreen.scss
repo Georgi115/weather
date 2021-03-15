@@ -1,0 +1,62 @@
+$color-text: rgba(128, 128, 128, 0.781);
+$font-family-text: "Alata", sans-serif;
+
+p {
+  margin: 0;
+  padding: 0;
+}
+.wetherScreen {
+  padding: 30px 10px 30px 10px;
+  &__icon {
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__sircle {
+    border: 2px solid rgba(128, 128, 128, 0.61);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  &__sircle:hover &__plus {
+    color: rgba(0, 0, 0, 0.685);
+  }
+  &__plus {
+    color: rgba(128, 128, 128, 0.781);
+  }
+  &__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  &__temperature {
+    color: $color-text;
+    font-family: $font-family-text;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  &__city {
+    color: $color-text;
+    font-family: $font-family-text;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  &__details {
+    color: $color-text;
+    font-family: $font-family-text;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  &__day {
+    color: $color-text;
+    font-family: $font-family-text;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+}
